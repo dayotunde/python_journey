@@ -1,3 +1,7 @@
+'''
+This application mimics the behaviour of a simple web browser in python.
+It executes a GET request to data.pr4e.org and returns page1.htm
+'''
 import socket
 
 my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
