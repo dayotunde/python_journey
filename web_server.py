@@ -1,3 +1,8 @@
+'''
+This implements a simple webserver that runs on port 8888 on your local machine.
+You can use Firefox to connect to it 
+It accepts only one connection at a time
+'''
 from socket import *
 
 def create_webserver():
