@@ -90,12 +90,12 @@ def jiracheck():
         login = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[3]/div/div/div[7]/button[1]")
         time.sleep(3)
         email = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[3]/div/div/div[5]/div/input")
-        # email.send_keys("ispfyazaqjrzrmzxnp@bvhrk.com")
-        email.send_keys("disu.ayotunde@gmail.com")
-        # email.send_keys("disu_ayotunde@yahoo.com")
+        
+        email.send_keys("redacted")
+        
         passwords = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[3]/div/div/div[6]/div/input")
-        passwords .send_keys("Wh@t15J1tt@?")
-        # passwords.send_keys("Wh@t15J1tta?")
+        passwords .send_keys("redact")
+       
         login.click()
         time.sleep(3)
         homepage = driver.find_element(By.XPATH, "//*[@id='app']/div/div[1]/div/div[1]/div/div/div[1]/div/div/a")
