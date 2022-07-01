@@ -24,8 +24,8 @@ def checking_price():
     server = SMTP(host=hosts)
     server.starttls()
     print(server)
-    server.login(user='randoyellow@gmail.com', password='jdscygtnjihhdvyx')
-    server.sendmail(from_addr="randoyellow@gmail.com", to_addrs="ayo.disu@oracle.com",
+    server.login(user='randoyellow@gmail.com', password='redacted')
+    server.sendmail(from_addr="randoyellow@gmail.com", to_addrs="redated.com",
                     msg=f"Subject:Price Alert \n\nThe price is below desired ")
 
 if price < 400:
