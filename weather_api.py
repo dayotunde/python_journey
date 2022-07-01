@@ -5,8 +5,8 @@ import time
 from twilio.rest import Client
 user = os.environ.get('USER')
 print(user)
-# TWILIO_ACCOUNT_SID = "AC1c40bed6dec005f94d1a53b7ee22d693"
-# TWILIO_AUTH_TOKEN = "224ea77f6fa3dc2f1278756170338b57"
+# TWILIO_ACCOUNT_SID = "redacted"
+# TWILIO_AUTH_TOKEN = "redacted"
 
 account_sid = os.environ['TWILIO_ACCOUNT_SID']
 auth_token = os.environ['TWILIO_AUTH_TOKEN']
